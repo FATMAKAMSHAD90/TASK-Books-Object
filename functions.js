@@ -59,7 +59,8 @@ function getbookByauthorName(authorName, books) {
 
   ****************************************************************/
 function addSummaryToBook(summary, book) {
-  return (book.summary = summary);
+  book.summary = summary;
+  return book;
 }
 // Your code here
 
